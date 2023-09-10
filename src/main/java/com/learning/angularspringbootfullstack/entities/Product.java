@@ -28,6 +28,7 @@ public class Product {
     private BigDecimal unitPrice;
     private String imageUrl;
     private boolean active;
+    private Integer unitsInStock;
     @CreationTimestamp
     private Date dateCreated;
 
